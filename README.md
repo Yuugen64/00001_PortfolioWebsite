@@ -1,16 +1,12 @@
-<!-- Project Logo -->
-<br>
+<!-- PROJECT LOGO -->
+<br />
 <p align="center">
-    <img src="images/logo.png" alt="logo" width="80" height= "80">
+  <a href="https://github.com/Yuugen64/00001_PortfolioWebsite/blob/main/README.md">
+    <img src="assets/constructionIcon.png" alt="Logo" width="80" height="80">
+  </a>
 
-    <h3 align="center">Portfolio</h3>
+  <h3 align="center">Portfolio</h3>
 
-    <p align="center">
-    Who is this handsome guy?
-    <br />
-
-    <a href="">View on Github Pages</a>
-    
   </p>
 </p>
 
@@ -26,7 +22,6 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
-* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -80,6 +75,20 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 
 
 
+<!-- CHANGELOG -->
+## Changelog:
+
+11.3.20:
+- Set up the repository and the core framework for the site.
+
+### Main Branch:
+
+11.3.20:
+- [001-0.0.1]: Added the core layout of the site and followed an excellent guide by othneildrew on Github to better organize my Readme.
+- [002-0.0.1]: Readme Formatting >> Tweaked the formatting for the readme, since the markdown didn't work quite as expected on the first try.
+
+
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -87,17 +96,10 @@ For this particular project, there have been no outside contributions. If that c
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-<!--Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com-->
+Andrew Babler - Yuugen64@protonmail.com
 
 Project Link: [https://github.com/Yuugen64/00001_PortfolioWebsite/issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 
