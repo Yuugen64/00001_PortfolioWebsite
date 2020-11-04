@@ -16,6 +16,7 @@
     margin-left: 1rem;
 }
 
+/* The actual image file */
 #headshot{
     display: block;
     justify-content: center;
@@ -23,12 +24,14 @@
     border-radius: 50%;
 }
 
+/* My name */
 .introName{
     position: absolute;
     bottom: 0;
     font-size: 2.5rem;
 }
 
+/* My title */
 .introTitle{
     position: absolute;
     bottom: 3rem;

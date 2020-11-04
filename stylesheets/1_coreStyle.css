@@ -27,21 +27,27 @@ a{
   color: white;
   font-size: 2rem;
 
-  padding-top: .5rem;
-  padding-right: .5rem;
-  padding-bottom: .5rem;
-  padding-left: .5rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
 
   margin-top: 1rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
   margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 
   overflow: hidden;
 
   background-color: #2B7A78;
 }
 
+/* ========== Modals ========== */
+#clickLayer{
+  position: fixed;
+  background-color: black;
+  opacity: 75%;
+}
 
 
 
