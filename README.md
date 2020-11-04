@@ -89,6 +89,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [003-0.0.2]: Layout + Prestyle >> Configured the global CSS grid (trying a different approach this time) and added the basic styling elements for the mobile version."
 - [004-0.0.2]: Fixing Mobile Grid >> Trying to seperate the global grid out into areas that make sense for the overall flow for the website.
 - [005-0.0.3]: Fixed intro area for mobile >> Used a sub-grid for the intro so that it has its own unique styling irrespective of the global-grid. Added a fourth CSS page for the smaller styling changes for the website."
+- [006-0.0.4]: Added test photo + styling >> Added a larger test photo to the site so that the styling automatically handles larger photos on the mobile version. Also got the general styling to line up properly.
 
 
 
