@@ -94,6 +94,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [005-0.0.3]: Fixed intro area for mobile >> Used a sub-grid for the intro so that it has its own unique styling irrespective of the global-grid. Added a fourth CSS page for the smaller styling changes for the website."
 - [006-0.0.4]: Added test photo + styling >> Added a larger test photo to the site so that the styling automatically handles larger photos on the mobile version. Also got the general styling to line up properly.
 - [007-0.0.4]: Added click/tap toggle >> For the mobile version of the site it makes sense for the user to tap on the individual sections and then scroll through the information there which is too long to display fully on the site normally."
+- [008-0.0.4]: Added overscroll behavior >> Still need to try and get the elements to positon in the full size of the viewport; currently the area where the parent is affects how the expanded version displays."
 
 
 
