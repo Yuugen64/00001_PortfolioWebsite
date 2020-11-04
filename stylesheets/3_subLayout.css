@@ -4,6 +4,7 @@ areas.*/
 
 .intro-grid{
     display: grid;
+    position: relative;
     /*  Make sure that this corresponds to the global grid row size for this row. */
     max-height: 200px;
     grid-template-columns: .4fr .6fr;

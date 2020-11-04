@@ -3,3 +3,35 @@
 .extraPaddingBottom{
     padding-bottom: 3rem;;
 }
+
+.introPicture{
+    border-radius: 50%;
+    border: 5px solid #2B7A78;
+
+    position: relative;
+
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-bottom: auto;
+    margin-left: 1rem;
+}
+
+#headshot{
+    display: block;
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.introName{
+    position: absolute;
+    bottom: 0;
+    font-size: 2.5rem;
+}
+
+.introTitle{
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+    font-size: 1.5rem;
+}
