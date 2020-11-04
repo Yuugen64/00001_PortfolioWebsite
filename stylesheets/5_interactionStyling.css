@@ -1,4 +1,17 @@
 .grow{
     background-color: blue;
     overflow: scroll;
+    z-index: 900;
+    overscroll-behavior: none;
+
+    position: absolute;
+    top: auto;
+    height: 90vh;
+
+    align-content: center;
+
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
