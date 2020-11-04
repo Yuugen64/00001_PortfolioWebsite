@@ -88,6 +88,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [002-0.0.1]: Readme Formatting >> Tweaked the formatting for the readme, since the markdown didn't work quite as expected on the first try.
 - [003-0.0.2]: Layout + Prestyle >> Configured the global CSS grid (trying a different approach this time) and added the basic styling elements for the mobile version."
 - [004-0.0.2]: Fixing Mobile Grid >> Trying to seperate the global grid out into areas that make sense for the overall flow for the website.
+- [005-0.0.3]: Fixed intro area for mobile >> Used a sub-grid for the intro so that it has its own unique styling irrespective of the global-grid. Added a fourth CSS page for the smaller styling changes for the website."
 
 
 
