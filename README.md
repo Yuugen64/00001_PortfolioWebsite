@@ -95,6 +95,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [006-0.0.4]: Added test photo + styling >> Added a larger test photo to the site so that the styling automatically handles larger photos on the mobile version. Also got the general styling to line up properly.
 - [007-0.0.4]: Added click/tap toggle >> For the mobile version of the site it makes sense for the user to tap on the individual sections and then scroll through the information there which is too long to display fully on the site normally."
 - [008-0.0.4]: Added overscroll behavior >> Still need to try and get the elements to positon in the full size of the viewport; currently the area where the parent is affects how the expanded version displays."
+- [009-0.0.5]: Fixed position >> Set the position attribute to fixed (documentation puns lol) to solve the content displaying relative to parent container instead of relative to the viewport.
 
 
 
