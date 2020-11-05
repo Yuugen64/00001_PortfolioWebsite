@@ -98,6 +98,9 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [009-0.0.5]: Fixed position >> Set the position attribute to fixed (documentation puns lol) to solve the content displaying relative to parent container instead of relative to the viewport.
 - [010-0.0.5]: Modal section >> Added a section for modals since the specific effect that I was oroginally aiming for does not play well with CSS grid. WIll work on adding the modals for each section as well as the touch layer.
 
+11.4.20:
+- [011-0.0.5]: Was still having trouble implementing the modals in the way that I wanted to. All of the methods seem to cause issues with CSS grid either re-aligning or otherwise messing up the order of the 'cards'. Will attempt another approach next time, as there are other things I have to address today.
+
 
 
 <!-- CONTRIBUTING -->
