@@ -2,10 +2,16 @@
  global CSS grid and sub containers.*/
 
  .global-grid{
+    /* Force the global-grid to take only screen space */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 250px 400px 400px 400px;
+    grid-template-rows: 300px 1fr 1fr 1fr .1fr;
 
     background-color: #17252A;
  }

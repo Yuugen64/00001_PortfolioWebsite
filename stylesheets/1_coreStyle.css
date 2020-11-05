@@ -12,7 +12,13 @@
 html{
   font-family: sans-serif;
   font-size: 10px;
-  overflow: hidden;
+
+  /* Forcing the html to fit the screen */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 body{
