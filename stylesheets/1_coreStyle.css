@@ -12,6 +12,7 @@
 html{
   font-family: sans-serif;
   font-size: 10px;
+  overflow: hidden;
 }
 
 body{
