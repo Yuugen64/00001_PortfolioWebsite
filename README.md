@@ -103,7 +103,8 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 
 11.5.20:
 - [012-0.0.5]: Modals >> Implemented the necessary core functionality for modals to display in the mobile version. Also added new feature issues and a milestone for the project to better practice dev ops procedures assuming that in the future I will have to collaborate with other developers."
-[013-0.0.6]: Modal slide in + scroll issues >> Successfully implemented the modal for projects animating in and the touchlayer fading in underneath it. However, after the animation is triggered once, the user can no longer scroll down the main page. Also, there is an issue with <html> area blowing out past the global-grid."
+- [013-0.0.6]: Modal slide in + scroll issues >> Successfully implemented the modal for projects animating in and the touchlayer fading in underneath it. However, after the animation is triggered once, the user can no longer scroll down the main page. Also, there is an issue with <html> area blowing out past the global-grid."
+  - [014-0.0.6]: Fixed html overflow issue >> Forced the html and global css grid to have fixed postioning and bounded them to the display itself so the page functions more like a native app on a smartphone in portrait mode."
 
 
 
