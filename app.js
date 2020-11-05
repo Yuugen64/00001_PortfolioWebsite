@@ -4,9 +4,11 @@ console.log("[app.js]: Attached and working properly!");
 const projects = document.getElementById("projects");
 const projectsModal = document.getElementById("projectsModal");
 
-
 const challenges = document.getElementById("challenges");
+const challengesModal = document.getElementById("challengesModal");
+
 const contact = document.getElementById("contact");
+const contactModal = document.getElementById("contactModal");
 
 const touchLayer = document.getElementById("touchLayer");
 
@@ -24,6 +26,8 @@ let attachEventListeners = () => {
         touchLayer.classList.toggle("displayNone");
     });
 
+
+
     //Projects section - The card on the main page.
     projects.addEventListener("click", () => {
         console.log("Click registered on projects!");
@@ -40,21 +44,41 @@ let attachEventListeners = () => {
         touchLayer.classList.toggle("displayNone");
     });
 
-    /*
-    //Challenges section
+    
+
+    //Challenges section - The card on the main page.
     challenges.addEventListener("click", () => {
         console.log("Click registered on projects!");
 
-        challenges.classList.toggle("grow");
+        challengesModal.classList.toggle("showModal");
+        touchLayer.classList.toggle("displayNone");
     });
 
-    //Contact section
+    //Challenges modal - the card that animates in.
+    challengesModal.addEventListener("click", () => {
+        console.log("Click registered on projects modal!");
+
+        challengesModal.classList.toggle("showModal");
+        touchLayer.classList.toggle("displayNone");
+    });
+
+
+
+    //Contact section - The card on the main page.
     contact.addEventListener("click", () => {
         console.log("Click registered on projects!");
 
-        contact.classList.toggle("grow");
+        contactModal.classList.toggle("showModal");
+        touchLayer.classList.toggle("displayNone");
     });
-    */
+
+    //Contact modal - the card that animates in.
+    contactModal.addEventListener("click", () => {
+        console.log("Click registered on projects modal!");
+
+        contactModal.classList.toggle("showModal");
+        touchLayer.classList.toggle("displayNone");
+    });
 };
 
 

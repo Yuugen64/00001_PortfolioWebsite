@@ -31,7 +31,7 @@
 
 #touchLayer{
     position: fixed;
-    background-color: blue;
+    background-color: grey;
 
 
     /* **** Fix this once modals are implemented!!! **** */
@@ -70,7 +70,7 @@
 
 /*Cannot target #id's!!! Can ONLY target CLASSES!!!*/
 /* Maybe becuase classes are overarching while ID's on display:none don't exist??? */
-.projectsModal{
+.projectsModal, .challengesModal, .contactModal{
     position: absolute;
     height: 95vh;
     z-index: 700;
@@ -80,8 +80,6 @@
 
     overflow: scroll;
 
-    background-color: yellow;
-
     margin-top: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -90,6 +88,18 @@
     
     transition: all .5s ease;
     transform: translateX(200%);
+}
+
+.projectsModal{
+    background-color: red;
+}
+
+.challengesModal{
+    background-color: green;
+}
+
+.contactModal{
+    background-color: blue;
 }
 
 .showModal{
