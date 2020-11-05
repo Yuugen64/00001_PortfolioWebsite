@@ -45,12 +45,46 @@ a{
   margin-bottom: 1rem;
   margin-left: 2rem;
 
+  border-radius: 20px;
+
   overflow: hidden;
 
-  background-color: #2B7A78;
+  position: relative;
 }
 
-
+.projects::after{
+  content: "";
+  background-image: url("../assets/blueprint_1920x1050.jpg");
+  opacity: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.challenges::after{
+  content: "";
+  background-image: url("../assets/software_1920x1277.jpg");
+  opacity: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.contact::after{
+  content: "";
+  background-image: url("../assets/searchbar_7000x2458.jpg");
+  opacity: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
 
 

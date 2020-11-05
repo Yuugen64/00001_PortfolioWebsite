@@ -128,4 +128,7 @@ Project Link: [https://github.com/Yuugen64/00001_PortfolioWebsite/issues](https:
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md) - For providing a great template for leveling up my README!
+* Blueprint Image by <a href="https://pixabay.com/users/xresch-7410129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4056027">xresch</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4056027">Pixabay</a>
+* Software Image by Image by <a href="https://pixabay.com/users/xresch-7410129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3682509">xresch</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3682509">Pixabay</a>
+* Search Bar Image by Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4999181">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4999181">Pixabay</a>
 

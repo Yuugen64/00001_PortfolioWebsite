@@ -1,9 +1,10 @@
 /*The stylesheet that controls the "little extras" of the website.*/
 
 .extraPaddingBottom{
-    padding-bottom: 3rem;;
+    padding-bottom: 3rem;
 }
 
+/* ===== Intro Section Styling ===== */
 .introPicture{
     border-radius: 50%;
     border: 5px solid #2B7A78;
@@ -38,3 +39,4 @@
     right: 0;
     font-size: 1.5rem;
 }
+/* ===== ===== ===== ===== */

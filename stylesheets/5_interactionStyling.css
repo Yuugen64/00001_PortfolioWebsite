@@ -1,20 +1,3 @@
-/*
-.grow{
-    overflow: scroll;
-    z-index: 900;
-    overscroll-behavior: none;
-    
-    position: fixed;
-
-    height: 95vh;
-
-    margin-top: 1rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1rem;
-    margin-left: 1.5rem;
-}
-*/
-
 /* ========== Modals ========== */
 
 /*To control the scroll behavior underneath for 'html' & 'body'*/
