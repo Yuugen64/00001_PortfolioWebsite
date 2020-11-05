@@ -106,6 +106,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [013-0.0.6]: Modal slide in + scroll issues >> Successfully implemented the modal for projects animating in and the touchlayer fading in underneath it. However, after the animation is triggered once, the user can no longer scroll down the main page. Also, there is an issue with <html> area blowing out past the global-grid."
 - [014-0.0.6]: Fixed html overflow issue >> Forced the html and global css grid to have fixed postioning and bounded them to the display itself so the page functions more like a native app on a smartphone in portrait mode.
 - [015-0.0.7]: Modals implemented + profile picture updated >> Implemented the modals for each section with working animations. Also added in my personal profile picture instead of the test photo that I had been previously using to test layout styling.
+- [016-0.0.8]: Card Images >> Added background images and basic sub styling to cards. Will address final main page design and then modal design next.
 
 
 
