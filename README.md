@@ -101,6 +101,9 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 11.4.20:
 - [011-0.0.5]: Was still having trouble implementing the modals in the way that I wanted to. All of the methods seem to cause issues with CSS grid either re-aligning or otherwise messing up the order of the 'cards'. Will attempt another approach next time, as there are other things I have to address today.
 
+11.5.20:
+- [012-0.0.5]: Modals >> Implemented the necessary core functionality for modals to display in the mobile version. Also added new feature issues and a milestone for the project to better practice dev ops procedures assuming that in the future I will have to collaborate with other developers."
+
 
 
 <!-- CONTRIBUTING -->
