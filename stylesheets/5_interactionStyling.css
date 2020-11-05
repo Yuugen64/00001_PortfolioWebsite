@@ -12,3 +12,57 @@
     margin-bottom: 1rem;
     margin-left: 1.5rem;
 }
+
+/* ========== Modals ========== */
+
+/*To control the scroll behavior underneath for 'html' & 'body'*/
+.disableScroll{
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+
+#clickLayer{
+    position: fixed;
+    background-color: blue;
+
+
+    /* **** Fix this once modals are implemented!!! **** */
+    opacity: 50%;
+  
+
+
+
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+  
+    z-index: 500;
+  
+    overflow-y: none;
+    overscroll-behavior: none;
+}
+
+#modals{
+    justify-content: center;
+}
+
+#projectsModal, #challengesModal, #contactModal{
+    position: absolute;
+    height: 95vh;
+    z-index: 700;
+
+    top: 0;
+    left: 0;
+
+    overflow: scroll;
+
+    background-color: yellow;
+
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
