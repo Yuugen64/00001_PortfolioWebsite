@@ -53,6 +53,43 @@
 
 /* ===== Cards Section Styling ===== */
 
+
+
+.header{
+    white-space: nowrap;
+}
+
+.projects::after,.challenges::after,.contact::after{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.projects::after{
+    opacity: 70%;
+    content: "";
+    background-image: url("../assets/blueprint_1920x1050.jpg");
+    background-size: contain;
+    background-position: right;
+}
+.challenges::after{
+    opacity: 80%;
+    content: "";
+    background-image: url("../assets/software_1920x1277.jpg");
+    background-size: contain;
+    background-position: right;
+}
+.contact::after{
+    opacity: 80%;
+    content: "";
+    background-image: url("../assets/searchbar_7000x2458.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
 .title{
     font-size: 2.8rem;
     font-weight: 500;
@@ -66,40 +103,45 @@
     display: inline;
 }
 
-.header{
-    white-space: nowrap;
+.projectsModal, .challengesModal, .contactModal{
+    color: black;
+
+    border: .4rem solid #F0F0F3;
+
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+    border-radius: 1rem;
+
+    overflow: scroll;
+
+    position: relative;
+
+    border-radius: 1rem;
+
+    /*Shadows and Accents Top Left, Bottom Right*/
+    box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
+    3px 3px 9px 0px rgba(174, 174, 192, 1);
 }
 
-.projects::after,.challenges::after,.contact::after{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-  
-  .projects::after{
-    opacity: 70%;
-    content: "";
-    background-image: url("../assets/blueprint_1920x1050.jpg");
-    background-size: contain;
-    background-position: right;
-  }
-  .challenges::after{
-    opacity: 90%;
-    content: "";
-    background-image: url("../assets/software_1920x1277.jpg");
-    background-size: contain;
-    background-position: right;
-  }
-  .contact::after{
-    opacity: 90%;
-    content: "";
-    background-image: url("../assets/searchbar_7000x2458.jpg");
-    background-size: cover;
-    background-position: right;
-  }
+.projectsModal{
+    background-color: #F0F0F3;
+}
+
+.challengesModal{
+    background-color: #F0F0F3;
+}
+
+.contactModal{
+    background-color: #F0F0F3;
+}
 
 
 /* ===== ===== ===== ===== */

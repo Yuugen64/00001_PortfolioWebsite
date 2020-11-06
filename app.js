@@ -22,7 +22,14 @@ let attachEventListeners = () => {
     touchLayer.addEventListener("click", () => {
         console.log("Click registered on touchLayer");
 
-        projectsModal.classList.toggle("showModal");
+        if(projectsModal.classList.contains("showModal")){
+            projectsModal.classList.toggle("showModal");
+        } else if (challengesModal.classList.contains("showModal")) {
+            challengesModal.classList.toggle("showModal");
+        } else if (contactModal.classList.contains("showModal")){
+            contactModal.classList.toggle("showModal");
+        }
+
         touchLayer.classList.toggle("displayNone");
     });
 
