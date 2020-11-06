@@ -12,8 +12,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 220px 1fr 1fr 1fr 10px;
-
-    background-color: #17252A;
  }
 
  

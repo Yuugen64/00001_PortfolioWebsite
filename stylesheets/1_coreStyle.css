@@ -2,7 +2,7 @@
 
 *
 *::before,
-*::after{
+*::after, p{
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -31,60 +31,39 @@ a{
   text-decoration: none;
 }
 
+.global-grid{
+  background-color:rgb(220, 220, 223);
+}
+
 .projects, .challenges, .contact{
-  color: white;
+  color: #FFFFFF;
   font-size: 2rem;
 
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
+  border: .4rem solid #F0F0F3;
+
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 
   margin-top: 1rem;
   margin-right: 2rem;
   margin-bottom: 1rem;
   margin-left: 2rem;
 
-  border-radius: 20px;
+  border-radius: 1rem;
 
   overflow: hidden;
 
   position: relative;
+
+  border-radius: 1rem;
+
+  /*Shadows and Accents Top Left, Bottom Right*/
+  box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
+  3px 3px 9px 0px rgba(174, 174, 192, 1);
 }
 
-.projects::after{
-  content: "";
-  background-image: url("../assets/blueprint_1920x1050.jpg");
-  opacity: 50%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-.challenges::after{
-  content: "";
-  background-image: url("../assets/software_1920x1277.jpg");
-  opacity: 50%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-.contact::after{
-  content: "";
-  background-image: url("../assets/searchbar_7000x2458.jpg");
-  opacity: 50%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
 
 
 
@@ -97,5 +76,22 @@ a{
     color: #3AAFA9;
     color: #DEF2F1;
     color: #FEFFFF;
+}
+
+/*Current Palette*/
+#chosenPalette{
+
+  /*Egg shell primary*/
+  color: #F0F0F3;
+  color: rgb(240, 240, 243);
+
+  /*Accent color (shadow)*/
+  color: #AEAEC0;
+  color: rgb(174, 174, 192);
+
+  /*Pure white for reflection*/
+  color: #FFFFFF;
+  color: rgb(255, 255,255);
+
 }
 /* ========== ======== ========== */
