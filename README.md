@@ -109,6 +109,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [016-0.0.8]: Card Images >> Added background images and basic sub styling to cards. Will address final main page design and then modal design next.
 - [017-0.0.8]: Card styling >> Added background images (royalty free from pixabay) to the card sections for the portfolio website. Also added in the neomorphism style to the intro section and the cards. Will tweak the name section and banner of the intro section, as well as add in the styling for the card modals next.
 - [018-0.0.8]: Touch layer issues >> Resolved an issue where the touchLayer logic and modal show/hide was incorrectly toggling other modals and not toggling when the layer is tapped.
+- [019-0.0.9]: Modal content styling >> Formatted the way information is displayed in the modals. Added the ability to make styled posts for projects and challenges with a nice background effect to differentiate between the various posts. Formatted text margins, padding, and alignment as well as weight for various kinds of text. All thats left now for version 1.0 is to finalize the stlying, add the contact information and verify the mobile version aligns properly on the real test device (Chrome looks great but iOS is displaying differntly atm).
 
 
 
