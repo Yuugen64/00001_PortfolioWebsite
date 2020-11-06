@@ -1,4 +1,7 @@
 /*The stylesheet that controls the "little extras" of the website.*/
+/* This controls things like the sub-grid for the intro section.
+It also controls the ::after effects for the cards images and opacity.
+It also controls the modals styling. */
 
 .extraPaddingBottom{
     padding-bottom: 3rem;
@@ -139,7 +142,7 @@
 
     border-radius: 1rem;
 
-    overflow: scroll;
+    overflow: scroll; 
 
     position: relative;
 
