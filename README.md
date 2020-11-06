@@ -107,6 +107,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [014-0.0.6]: Fixed html overflow issue >> Forced the html and global css grid to have fixed postioning and bounded them to the display itself so the page functions more like a native app on a smartphone in portrait mode.
 - [015-0.0.7]: Modals implemented + profile picture updated >> Implemented the modals for each section with working animations. Also added in my personal profile picture instead of the test photo that I had been previously using to test layout styling.
 - [016-0.0.8]: Card Images >> Added background images and basic sub styling to cards. Will address final main page design and then modal design next.
+- [017-0.0.8]: Card styling >> Added background images (royalty free from pixabay) to the card sections for the portfolio website. Also added in the neomorphism style to the intro section and the cards. Will tweak the name section and banner of the intro section, as well as add in the styling for the card modals next.
 
 
 
