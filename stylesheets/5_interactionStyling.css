@@ -14,11 +14,11 @@
 
 #touchLayer{
     position: fixed;
-    background-color: blue;
+    background-color: #17252A;
 
 
     /* **** Fix this once modals are implemented!!! **** */
-    opacity: 50%;
+    opacity: 70%;
   
 
 
@@ -57,7 +57,7 @@
 /* Maybe becuase classes are overarching while ID's on display:none don't exist??? */
 .projectsModal, .challengesModal, .contactModal{
     position: absolute;
-    height: 90vh;
+    height: 80vh;
     z-index: 700;
 
     top: 0;
@@ -66,9 +66,9 @@
     overflow: scroll;
 
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: .5rem;
     margin-bottom: 2.5rem;
-    margin-left: 1rem;
+    margin-left: .5rem;
 
     
     transition: all .5s ease;

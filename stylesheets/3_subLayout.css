@@ -9,22 +9,17 @@ areas.*/
     max-height: 200px;
     grid-template-columns: .4fr .6fr;
     /*  Make sure that this corresponds to ***1/2*** the global grid row size for this row. */
-    grid-template-rows: 100px;
+    grid-template-rows: 100px 100px;
     grid-template-areas: 
     "picture name"
-    "picture title";
+    "picture flavorText";
 
-    padding-top: .5rem;
-    padding-right: .5rem;
-    padding-bottom: .5rem;
-    padding-left: .5rem;
-
+    /* This controls the margins for the physical card. 
+    The child elements control their own padding and marigns. */
     margin-top: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
-
-    gap: .2rem;
 
     background-color: #DEF2F1;
  }
@@ -34,12 +29,11 @@ areas.*/
     background-color: #3AAFA9;
  }
 
- .introName{
+ .name{
     grid-area: name;
-    background-color: #3AAFA9;
  }
 
- .introTitle{
-    grid-area: title;
+ .flavorText{
+    grid-area: flavorText;
     background-color: #3AAFA9;
  }

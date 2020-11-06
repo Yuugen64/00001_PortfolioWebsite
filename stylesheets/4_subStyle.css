@@ -34,27 +34,46 @@
 }
 
 /* My name */
-.introName{
+#name{
+    grid-area: name;
+  
     position: absolute;
     bottom: 0;
-    font-size: 2.5rem;
+    left: 0;
+  
+    font-size: 2.8rem;
+    font-family: "myriad-pro",sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-/* My title */
-.introTitle{
+/* My role */
+  #flavorText{
+    font-size: 2.0rem;
     position: absolute;
     bottom: 3rem;
     right: 0;
-    font-size: 1.5rem;
-}
+    background-color: #f0f0f3;
+  
+    border-radius: .3rem;
+  
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+    /*Shadows and Accents*/
+    box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1) inset,
+    3px 3px 9px 0px rgba(174, 174, 192, 0.4),
+  
+    -3px -3px 9px 0px rgba(174, 174, 192, 0.25) inset,
+    -3px 3px 9px 0px rgba(255, 255, 255, 1);
+  }
 /* ===== ===== ===== ===== */
 
 
 
 /* ===== Cards Section Styling ===== */
-
-
-
 .header{
     white-space: nowrap;
 }

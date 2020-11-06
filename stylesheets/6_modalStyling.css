@@ -1,0 +1,66 @@
+.postBackground{
+    background-color:rgba(23, 37, 42, 0.20);
+    border-radius: .5rem;
+}
+
+
+.post{
+    margin: .8rem;
+    margin-bottom: 2rem;
+}
+
+.postTitle{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+
+    line-height: 1.8rem;
+
+    padding-top: 1rem;
+}
+.postDate{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+
+    line-height: 1.5rem;
+
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.postContent{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: black;
+
+    line-height: 1.8rem;
+
+    padding-bottom: 1rem;
+
+    text-indent: 2rem;
+}
+
+/* Control for width, height will take care of itself. */
+/* Goes INSIDE the section container! */
+img{
+    height: auto;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+/* for the SECTION CONTAINER! */
+.postPhoto{
+    margin-top: .5rem;
+    display: fixed;
+}
+.photoBlurb{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+
+    line-height: 1rem;
+
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}

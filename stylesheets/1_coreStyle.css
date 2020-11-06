@@ -81,17 +81,21 @@ a{
 /*Current Palette*/
 #chosenPalette{
 
-  /*Egg shell primary*/
+  /* Egg shell primary */
   color: #F0F0F3;
   color: rgb(240, 240, 243);
 
-  /*Accent color (shadow)*/
+  /* Accent color (shadow) */
   color: #AEAEC0;
   color: rgb(174, 174, 192);
 
-  /*Pure white for reflection*/
+  /* Pure white for reflection */
   color: #FFFFFF;
   color: rgb(255, 255,255);
+
+  /* Dark grey for shadows and backgrounds. */
+  color: #17252A;
+  color: rgb(23, 37, 42);
 
 }
 /* ========== ======== ========== */
