@@ -15,3 +15,59 @@
  }
 
  
+
+
+
+ 
+
+/* ===== Media Queries ===== */
+
+/* The default app is built for phones in portrait. */
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+   @media (min-width: 500px) and (max-width: 820px) { 
+      .global-grid{
+         /* Force the global-grid to take only screen space */
+         position: fixed;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+     
+         display: grid;
+         grid-template-columns: 2fr 3fr;
+         grid-template-rows: 1fr 1fr 1fr;
+         grid-template-areas: 
+         "intro projects"
+         "intro challenges"
+         "intro contact";
+      }
+
+      .intro-grid{
+         grid-area: intro;
+      }
+
+      .projects{
+         grid-area: projects;
+      }
+
+      .challenges{
+         grid-area: challenges;
+      }
+
+      .contact{
+         grid-area: contact;
+      }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/* ========================= */
