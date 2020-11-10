@@ -118,6 +118,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [021-0.1.0]: Portrait mode MVP reached >> Started working on the landscape mode for mobile phones. Will update issues to reflect this progress.
 - [022-0.1.1]: Landscape styling >> added in the media queries for landscape mobile devices and re-oredered the global grid to reflect the orientation change. Will test on iPhone XS.
 - [023-0.1.2]: Mobile landscape fix? >> Added device specific media queries for the devices I am testing on (iPhone X, iPad Mini 5) in the hopes that the orientation will display properly regardless of high density displays. This also on top of not blowing out desktop designs.
+- [024-0.1.2]: Added @media queries to subStyle.css to start addressing modals. Re-added the margin for intro grid into the correct @media query to hopefully solve the intro 'card' not aligning properly in landscape mode.
   
 
 
