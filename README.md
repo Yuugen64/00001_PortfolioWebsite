@@ -115,7 +115,8 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [020-0.0.9]: iOS mobile styling portrait >> Attempted to fix the iOS mobile styling in portrait mode by adjusting some of the values for the cards. The way the site is shaping up, it will utilize more hard-coded values with @media queries for various platform sizes.
 
 11.9.20:
-- [021-0.1.0]: Portrait mode MVP reached >> Started working on the landscape mode for mobile phones. Will update issues to reflect this progress."
+- [021-0.1.0]: Portrait mode MVP reached >> Started working on the landscape mode for mobile phones. Will update issues to reflect this progress.
+- [022-0.1.1]: Landscape styling >> added in the media queries for landscape mobile devices and re-oredered the global grid to reflect the orientation change. Will test on iPhone XS.
   
 
 
