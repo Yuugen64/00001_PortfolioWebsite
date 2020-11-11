@@ -121,10 +121,11 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [024-0.1.2]: Added @media queries to subStyle.css to start addressing modals. Re-added the margin for intro grid into the correct @media query to hopefully solve the intro 'card' not aligning properly in landscape mode.
 - [025-0.1.3]: Landscape styling tweaks >> Attempted to smooth out some of the styling issues with landscape mode on mobile phones.
 
-11.7.20:
+11.10.20:
 - [026-0.1.4]: Version 2.0 addition >> Re-worked the basic tablet portrait styling. Started wrapping my head around the logic re-work that will have to occur as I attempt to make the tablet version functional. These changes my also influence the next big milestone (1.5) as I may re-cycle some of the problem solving to address the modal problem in landscape mobile.
 - [027-0.1.4]: Tablet portrait mode intro area fix >> Adjusted the layout for the intro area to keep the profile picture from blowing out of the grid.
 - [028-0.1.4]: Re-worked the basic on-click logic for the cards and modals on tablet portrait view. Utilized a simple z-index hack to keep from re-writing the entire approach to the content.
+- [029-0.1.4]: Tablet modal card selection >> Made the card selection sligthly more obvious as to which area of content the user is currently viewing.
   
 
 
