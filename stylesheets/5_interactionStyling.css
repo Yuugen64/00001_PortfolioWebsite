@@ -122,7 +122,31 @@ and (-webkit-min-device-pixel-ratio: 1)  { /* STYLES GO HERE */ }
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape)
-and (-webkit-min-device-pixel-ratio: 1)  { /* STYLES GO HERE */}
+and (-webkit-min-device-pixel-ratio: 1)  {
+    /* Tweaking the width of the modals. */
+    .projectsModal, .challengesModal, .contactModal{
+        height: 74vh;
+        width: 60%;
+
+        top: 0;
+        left: 0;
+
+        overflow: scroll;
+
+        margin-top: 22rem;
+        margin-right: .5rem;
+        margin-bottom: 2.5rem;
+        margin-left: .5rem;
+
+        
+        transition: all .5s ease;
+        transform: translateX(200%);
+    }
+    /* This is here so the modal actually shows itself */
+    .showModal{
+        transform: translateX(0%);
+    }
+}
 
 /* iPad (retina) Portrait */
 @media only screen 

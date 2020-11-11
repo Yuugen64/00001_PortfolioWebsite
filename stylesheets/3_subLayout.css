@@ -58,8 +58,8 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation: landscape) { 
     /* This centers the card vertically in landscape mode on mobile. */
     .intro-grid{
-        margin-top: 5%;
-    }
+      margin-top: 5%;
+   }
 }
 
 /* ======================== */

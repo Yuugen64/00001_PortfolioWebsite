@@ -74,6 +74,8 @@ let attachEventListeners = () => {
     challenges.addEventListener("click", () => {
         console.log("Click registered on challenges!");
 
+        //On mobile, this triggers the modal animation.
+        challengesModal.classList.toggle("showModal");
 
         projects.style.opacity = 1;
         challenges.style.opacity = .8;
@@ -102,6 +104,8 @@ let attachEventListeners = () => {
     contact.addEventListener("click", () => {
         console.log("Click registered on contact!");
 
+        //On mobile, this triggers the modal animation.
+        contactModal.classList.toggle("showModal");
 
         projects.style.opacity = 1;
         challenges.style.opacity = 1;
