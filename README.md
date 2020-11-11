@@ -126,6 +126,9 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [027-0.1.4]: Tablet portrait mode intro area fix >> Adjusted the layout for the intro area to keep the profile picture from blowing out of the grid.
 - [028-0.1.4]: Re-worked the basic on-click logic for the cards and modals on tablet portrait view. Utilized a simple z-index hack to keep from re-writing the entire approach to the content.
 - [029-0.1.4]: Tablet modal card selection >> Made the card selection sligthly more obvious as to which area of content the user is currently viewing.
+
+11.11.20:
+- [030-0.1.4]: Mobile landscape modal bug fixed >> Fixed an error with the onclick logic for landscape mobile view where the modals where not being assigned the class 'showModal'.
   
 
 
