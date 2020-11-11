@@ -43,6 +43,14 @@ let attachEventListeners = () => {
         console.log("Click registered on projects!");
 
         projectsModal.classList.toggle("showModal");
+
+        //This moves the modal to the top of the stack on tablets.
+        projectsModal.classList.add("moveToTop");
+        //These move the other ones below this modal.
+        challengesModal.classList.remove("moveToTop");
+        contactModal.classList.remove("moveToTop");
+
+
         touchLayer.classList.toggle("displayNone");
     });
 
@@ -58,15 +66,20 @@ let attachEventListeners = () => {
 
     //Challenges section - The card on the main page.
     challenges.addEventListener("click", () => {
-        console.log("Click registered on projects!");
+        console.log("Click registered on challenges!");
 
-        challengesModal.classList.toggle("showModal");
+        //This moves the modal to the top of the stack on tablets.
+        challengesModal.classList.add("moveToTop");
+        //These move the other ones below this modal.
+        projectsModal.classList.remove("moveToTop");
+        contactModal.classList.remove("moveToTop");
+
         touchLayer.classList.toggle("displayNone");
     });
 
     //Challenges modal - the card that animates in.
     challengesModal.addEventListener("click", () => {
-        console.log("Click registered on projects modal!");
+        console.log("Click registered on challenges modal!");
 
         challengesModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
@@ -76,15 +89,20 @@ let attachEventListeners = () => {
 
     //Contact section - The card on the main page.
     contact.addEventListener("click", () => {
-        console.log("Click registered on projects!");
+        console.log("Click registered on contact!");
 
-        contactModal.classList.toggle("showModal");
+        //This moves the modal to the top of the stack on tablets.
+        contactModal.classList.add("moveToTop");
+        //These move the other ones below this modal.
+        challengesModal.classList.remove("moveToTop");
+        projectsModal.classList.remove("moveToTop");
+
         touchLayer.classList.toggle("displayNone");
     });
 
     //Contact modal - the card that animates in.
     contactModal.addEventListener("click", () => {
-        console.log("Click registered on projects modal!");
+        console.log("Click registered on contact modal!");
 
         contactModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
