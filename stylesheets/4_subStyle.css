@@ -83,15 +83,7 @@ It also controls the modals styling. */
 
 
 
-/* The picture backgrounds */
-.projects::after,.challenges::after,.contact::after{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
+
 
 /*
 background-size -> this property decides how the image will fill the parent.
@@ -117,6 +109,16 @@ background-position -> this pans the image around; can have multiple arguments.
     background-image: url("../assets/searchbar_7000x2458.jpg");
     background-size: cover;
     background-position: right;
+}
+
+/* The picture backgrounds */
+.projects::after,.challenges::after,.contact::after{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 
@@ -176,7 +178,6 @@ background-position -> this pans the image around; can have multiple arguments.
 .contactModal{
     background-color: #F0F0F3;
 }
-
 
 /* ===== ===== ===== ===== */
 
@@ -241,6 +242,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-bottom: auto;
         margin-left: 1rem;
     }
+    
  }
 
 /* iPad (retina) Landscape */

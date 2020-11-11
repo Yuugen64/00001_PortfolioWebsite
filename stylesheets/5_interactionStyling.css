@@ -159,10 +159,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .contactModal{
         z-index: 700;
     }
-    /* The z-index here controls modal display on tablet. */
+
+    /* The z-index here controls modal display on tablet. I think this needs to be here to prevent overwrite. */
     .moveToTop{
         z-index: 1000;
     }
+
+    /* Don't show the touchLayer on this version of the site. */
     .touchLayer{   
         display:none;   
     }

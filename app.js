@@ -42,7 +42,13 @@ let attachEventListeners = () => {
     projects.addEventListener("click", () => {
         console.log("Click registered on projects!");
 
+        //On mobile, this triggers the modal animation.
         projectsModal.classList.toggle("showModal");
+
+        //This controls the card selection feature.
+        projects.style.opacity = .8;
+        challenges.style.opacity = 1;
+        contact.style.opacity = 1;
 
         //This moves the modal to the top of the stack on tablets.
         projectsModal.classList.add("moveToTop");
@@ -50,14 +56,14 @@ let attachEventListeners = () => {
         challengesModal.classList.remove("moveToTop");
         contactModal.classList.remove("moveToTop");
 
-
+        //Unhide touch layer.
         touchLayer.classList.toggle("displayNone");
     });
 
     //Projects modal - the card that animates in.
     projectsModal.addEventListener("click", () => {
         console.log("Click registered on projects modal!");
-
+        //If the modal is clicked, hide modal and re-hide touchlayer.
         projectsModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
     });
@@ -67,6 +73,11 @@ let attachEventListeners = () => {
     //Challenges section - The card on the main page.
     challenges.addEventListener("click", () => {
         console.log("Click registered on challenges!");
+
+
+        projects.style.opacity = 1;
+        challenges.style.opacity = .8;
+        contact.style.opacity = 1;
 
         //This moves the modal to the top of the stack on tablets.
         challengesModal.classList.add("moveToTop");
@@ -90,6 +101,11 @@ let attachEventListeners = () => {
     //Contact section - The card on the main page.
     contact.addEventListener("click", () => {
         console.log("Click registered on contact!");
+
+
+        projects.style.opacity = 1;
+        challenges.style.opacity = 1;
+        contact.style.opacity = .8;
 
         //This moves the modal to the top of the stack on tablets.
         contactModal.classList.add("moveToTop");
