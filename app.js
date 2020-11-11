@@ -22,6 +22,7 @@ let attachEventListeners = () => {
     touchLayer.addEventListener("click", () => {
         console.log("Click registered on touchLayer");
 
+        //The class toggling logic for the modals to appear and disappear on mobile.
         if(projectsModal.classList.contains("showModal")){
             projectsModal.classList.toggle("showModal");
         } else if (challengesModal.classList.contains("showModal")) {
@@ -29,6 +30,8 @@ let attachEventListeners = () => {
         } else if (contactModal.classList.contains("showModal")){
             contactModal.classList.toggle("showModal");
         }
+
+        
 
         touchLayer.classList.toggle("displayNone");
     });
