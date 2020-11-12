@@ -63,6 +63,7 @@ let attachEventListeners = () => {
     //Projects modal - the card that animates in.
     projectsModal.addEventListener("click", () => {
         console.log("Click registered on projects modal!");
+        resetCardOpacity();
         //If the modal is clicked, hide modal and re-hide touchlayer.
         projectsModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
@@ -93,7 +94,7 @@ let attachEventListeners = () => {
     //Challenges modal - the card that animates in.
     challengesModal.addEventListener("click", () => {
         console.log("Click registered on challenges modal!");
-
+        resetCardOpacity();
         challengesModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
     });
@@ -123,13 +124,20 @@ let attachEventListeners = () => {
     //Contact modal - the card that animates in.
     contactModal.addEventListener("click", () => {
         console.log("Click registered on contact modal!");
-
+        resetCardOpacity();
         contactModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
     });
 };
 
 
+
+//A less verbose way to implement this into each modal on click.
+let resetCardOpacity = () => {
+    projects.style.opacity = 1;
+    challenges.style.opacity = 1;
+    contact.style.opacity = 1;
+};
 
 
 //Verify load to avoid reference to 'null'

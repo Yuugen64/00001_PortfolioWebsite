@@ -163,8 +163,9 @@ background-position -> this pans the image around; can have multiple arguments.
     border-radius: 1rem;
 
     /*Shadows and Accents Top Left, Bottom Right*/
-    box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 1),
-    3px 3px 9px 0px rgba(174, 174, 192, 1);
+    /* Have these disabled by default now to prevent strange glowing on top of the darker touch layer. */
+    box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 0),
+    3px 3px 9px 0px rgba(174, 174, 192, 0);
 }
 
 .projectsModal{
@@ -201,7 +202,12 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation: landscape) { 
     /* This centers the card vertically in landscape mode on mobile. */
     .intro-grid{
-        margin-top: 20%;
+        margin-top: 10%;
+    }
+    .projectsModal, .challengesModal, .contactModal{
+        /*Shadows and Accents Top Left, Bottom Right*/
+        box-shadow: -3px -3px 9px 0px rgba(255, 255, 255, 0),
+        3px 3px 9px 0px rgba(174, 174, 192, 0);
     }
 }
 
