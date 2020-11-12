@@ -88,6 +88,8 @@
 
 
 
+
+
 /* ===== Media Queries ===== */
 
 /* *** The default app is built for phones in portrait. *** */
@@ -122,9 +124,15 @@ and (orientation: landscape) {
         transition: all .5s ease;
         transform: translateX(200%);
     }
+
     /* This is here so the modal actually shows itself */
     .showModal{
         transform: translateX(85%);
+    }
+
+    /* Set the html background to slightly darker than touchLayer so the safe areas on iPhone aren't so jarring. */
+    .setToDark{
+        background-color: #17252A;
     }
 }
 

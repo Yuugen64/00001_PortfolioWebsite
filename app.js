@@ -12,6 +12,8 @@ const contactModal = document.getElementById("contactModal");
 
 const touchLayer = document.getElementById("touchLayer");
 
+const html = document.getElementById("html");
+
 
 // ===== Functions =====
 
@@ -44,6 +46,9 @@ let attachEventListeners = () => {
 
         //On mobile, this triggers the modal animation.
         projectsModal.classList.toggle("showModal");
+
+        //Change the color of the html background to match the touchLayer color.
+        html.classList.toggle("setToDark");
 
         //This controls the card selection feature.
         projects.style.opacity = .8;
