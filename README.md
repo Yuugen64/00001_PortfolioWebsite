@@ -133,6 +133,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 
 11.12.20:
 - [032-0.1.4]: Verified that the background html color changing does indeed function properly on iOS when the iPhone is in landscape orientation. This takes care of the safe area styling issue.
+- [033-0.1.4]: Cards styling tweak landscape mobile >> Re-sized the cards (again) for the landscape orientation so that the site looks more deliberate.
   
 
 
