@@ -43,6 +43,8 @@ and (orientation: landscape) {
       bottom: 0;
       left: 0;
 
+      height: 80vh;
+
       display: grid;
       grid-template-columns: 2fr 2.2fr;
       grid-template-rows: 1fr 1fr 1fr;
@@ -58,20 +60,20 @@ and (orientation: landscape) {
 
    .projects{
       grid-area: projects;
-
-      height: 80%;
+      height: 90%;
+      margin: .5rem;
    }
 
    .challenges{
       grid-area: challenges;
-
-      height: 80%;
+      height: 90%;
+      margin: .5rem;
    }
 
    .contact{
       grid-area: contact;
-
-      height: 80%;
+      height: 90%;
+      margin: .5rem;
    }
 }
 
