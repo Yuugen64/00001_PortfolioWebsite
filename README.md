@@ -129,7 +129,10 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 
 11.11.20:
 - [030-0.1.4]: Mobile landscape modal bug fixed >> Fixed an error with the onclick logic for landscape mobile view where the modals where not being assigned the class 'showModal'.
-- [031-0.1.4]: Mobile landscape modal stlying >> Re-formatted the modal styling when a mobile phone is in landscape mode to more stylistically line up with the portrait mode version. Tweaked some of the drop shadows as well to remove the weird glowing effect of the modals on top of the touchLayer which is very obvious in landscape."
+- [031-0.1.4]: Mobile landscape modal stlying >> Re-formatted the modal styling when a mobile phone is in landscape mode to more stylistically line up with the portrait mode version. Tweaked some of the drop shadows as well to remove the weird glowing effect of the modals on top of the touchLayer which is very obvious in landscape.
+
+11.12.20:
+- [032-0.1.4]: Verified that the background html color changing does indeed function properly on iOS when the iPhone is in landscape orientation. This takes care of the safe area styling issue.
   
 
 
