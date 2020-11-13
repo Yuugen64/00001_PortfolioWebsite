@@ -24,6 +24,9 @@ let attachEventListeners = () => {
     touchLayer.addEventListener("click", () => {
         console.log("Click registered on touchLayer");
 
+        //Change the color of the html background to match the touchLayer color.
+        html.classList.toggle("setToDark");
+
         //The class toggling logic for the modals to appear and disappear on mobile.
         if(projectsModal.classList.contains("showModal")){
             projectsModal.classList.toggle("showModal");
@@ -69,6 +72,8 @@ let attachEventListeners = () => {
     projectsModal.addEventListener("click", () => {
         console.log("Click registered on projects modal!");
         resetCardOpacity();
+        //Change the color of the html background to match the touchLayer color.
+        html.classList.toggle("setToDark");
         //If the modal is clicked, hide modal and re-hide touchlayer.
         projectsModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
@@ -82,6 +87,9 @@ let attachEventListeners = () => {
 
         //On mobile, this triggers the modal animation.
         challengesModal.classList.toggle("showModal");
+
+        //Change the color of the html background to match the touchLayer color.
+        html.classList.toggle("setToDark");
 
         projects.style.opacity = 1;
         challenges.style.opacity = .8;
@@ -100,6 +108,8 @@ let attachEventListeners = () => {
     challengesModal.addEventListener("click", () => {
         console.log("Click registered on challenges modal!");
         resetCardOpacity();
+        //Change the color of the html background to match the touchLayer color.
+        html.classList.toggle("setToDark");
         challengesModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
     });
@@ -112,6 +122,9 @@ let attachEventListeners = () => {
 
         //On mobile, this triggers the modal animation.
         contactModal.classList.toggle("showModal");
+
+        //Change the color of the html background to match the touchLayer color.
+        html.classList.toggle("setToDark");
 
         projects.style.opacity = 1;
         challenges.style.opacity = 1;
@@ -130,6 +143,8 @@ let attachEventListeners = () => {
     contactModal.addEventListener("click", () => {
         console.log("Click registered on contact modal!");
         resetCardOpacity();
+        //Change the color of the html background to match the touchLayer color.
+        html.classList.toggle("setToDark");
         contactModal.classList.toggle("showModal");
         touchLayer.classList.toggle("displayNone");
     });
