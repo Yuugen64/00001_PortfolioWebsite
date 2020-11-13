@@ -107,8 +107,8 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation: landscape) { 
     /* Tweaking the width of the modals. */
     .projectsModal, .challengesModal, .contactModal{
-        height: 92vh;
-        width: 50%;
+        height: 80vh;
+        width: 80%;
 
         top: 0;
         left: 0;
@@ -125,9 +125,9 @@ and (orientation: landscape) {
         transform: translateX(200%);
     }
 
-    /* This is here so the modal actually shows itself */
+    /* Changing this is necessary for adjusting the modals width.*/
     .showModal{
-        transform: translateX(85%);
+        transform: translateX(18%);
     }
 
     /* Set the html background to slightly darker than touchLayer so the safe areas on iPhone aren't so jarring. */
