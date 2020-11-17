@@ -139,6 +139,7 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 11.16.20
 - [035-0.1.6]: Fixed modals in mobile portrait mode. There was an issue with the contact modal that caused it to only display at 60% of the width of the screen because the default modal width was removed during testing. Have since replaced the default width and verified it works properly on the iOS simulator, as well as on the simulator for an iPad Air 4th generation (in portrait mode only currently).
 - [036-0.1.7]: Landscape styling for tablet added, verfieid in iOS simulator.
+- [037-0.1.8]: Landscape tabler intro card styling >> Had to slightly adjust the profile picture when in landscape mode to better mimic the feel of the other versions of the site.
 
 
 
