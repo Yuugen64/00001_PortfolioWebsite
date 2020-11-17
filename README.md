@@ -135,7 +135,10 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [032-0.1.4]: Verified that the background html color changing does indeed function properly on iOS when the iPhone is in landscape orientation. This takes care of the safe area styling issue.
 - [033-0.1.4]: Cards styling tweak landscape mobile >> Re-sized the cards (again) for the landscape orientation so that the site looks more deliberate.
 - [034-0.1.5]: Mobile styling tweaks + Content >> Added in the correct contact information for the contact section, along with both of my repositories. Added in the first post for the projects section, as well as prepared for the challenges section to be updated with potentially one of my projects from the old repo.
-  
+
+11.16.20
+- [035-0.1.6]: Fixed modals in mobile portrait mode. There was an issue with the contact modal that caused it to only display at 60% of the width of the screen because the default modal width was removed during testing. Have since replaced the default width and verified it works properly on the iOS simulator, as well as on the simulator for an iPad Air 4th generation (in portrait mode only currently).
+
 
 
 
