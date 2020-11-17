@@ -256,6 +256,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape)
-and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */}
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .introPicture{
+        border-radius: 50%;
+        border: 5px solid #AEAEC0;
+    
+        position: relative;
+    
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+        margin-bottom: auto;
+        margin-left: 1rem;
+    }
+}
 
 /* ========================= */

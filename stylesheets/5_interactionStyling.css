@@ -211,6 +211,46 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape)
-and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */}
+and (-webkit-min-device-pixel-ratio: 2) { 
+    /* Setting the modal on to the screen be default. */
+    .projectsModal, .challengesModal, .contactModal{
+        position: absolute;
+        height: 90vh;
+        width: 63%;
+
+        top: 0;
+        left: 0;
+
+        overflow: scroll;
+
+        margin-top: .5rem;
+        margin-right: .5rem;
+        margin-bottom: 2.5rem;
+        margin-left: .5rem;
+
+        
+        transition: all .5s ease;
+        transform: translateX(50%);
+    }
+    .projectsModal{
+        z-index: 900;
+    }
+    .challengesModal{
+        z-index: 800;
+    }
+    .contactModal{
+        z-index: 700;
+    }
+
+    /* The z-index here controls modal display on tablet. I think this needs to be here to prevent overwrite. */
+    .moveToTop{
+        z-index: 1000;
+    }
+
+    /* Don't show the touchLayer on this version of the site. */
+    .touchLayer{   
+        display:none;   
+    }
+}
 
 /* ========================= */

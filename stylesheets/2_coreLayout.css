@@ -149,6 +149,46 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape)
-and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */}
+and (-webkit-min-device-pixel-ratio: 2) { 
+   .global-grid{
+      /* Force the global-grid to take only screen space */
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 220px 1fr 1fr 1fr;
+      grid-template-areas: 
+      "intro ."
+      "projects ."
+      "challenges ."
+      "contact .";
+   }
+
+   .intro-grid{
+      grid-area: intro;
+   }
+
+   .projects{
+      grid-area: projects;
+
+      height: 80%;
+   }
+
+   .challenges{
+      grid-area: challenges;
+
+      height: 80%;
+   }
+
+   .contact{
+      grid-area: contact;
+
+      height: 80%;
+   }
+}
 
 /* ========================= */
