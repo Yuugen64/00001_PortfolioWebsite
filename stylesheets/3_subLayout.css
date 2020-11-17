@@ -131,7 +131,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
       position: relative;
       /*  Make sure that this corresponds to the global grid row size for this row. */
       max-height: 200px;
-      grid-template-columns: .25fr .75fr;
+
+      /* Best to change picture change here by giving the container
+      more room to 'breathe' */
+      grid-template-columns: .4fr .6fr;
       /*  Make sure that this corresponds to ***1/2*** the global grid row size for this row. */
       grid-template-rows: 100px 100px;
       grid-template-areas: 
