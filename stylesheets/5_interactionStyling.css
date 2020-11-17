@@ -58,6 +58,7 @@
 .projectsModal, .challengesModal, .contactModal{
     position: absolute;
     height: 80vh;
+    width: 90%;
     z-index: 700;
 
     top: 0;
