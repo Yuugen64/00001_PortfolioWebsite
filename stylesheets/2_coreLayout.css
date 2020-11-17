@@ -125,22 +125,25 @@ and (-webkit-min-device-pixel-ratio: 2) {
       grid-area: intro;
    }
 
+   /* The height here controls HOW the subStyling handles
+   the height. In other words, the global grid automatically
+   sets '1fr' to the SMALLEST value of the three cards. */
    .projects{
       grid-area: projects;
 
-      height: 80%;
+      height: 23vh;
    }
 
    .challenges{
       grid-area: challenges;
 
-      height: 80%;
+      height: 23vh;
    }
 
    .contact{
       grid-area: contact;
 
-      height: 80%;
+      height: 23vh;
    }
  }
 
@@ -175,19 +178,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
    .projects{
       grid-area: projects;
 
-      height: 80%;
+      height: 18vh;
    }
 
    .challenges{
       grid-area: challenges;
 
-      height: 80%;
+      height: 18vh;
    }
 
    .contact{
       grid-area: contact;
 
-      height: 80%;
+      height: 18vh;
    }
 }
 
