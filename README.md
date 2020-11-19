@@ -142,6 +142,8 @@ See the [open issues](https://github.com/Yuugen64/00001_PortfolioWebsite/issues)
 - [037-0.1.8]: Landscape tabler intro card styling >> Had to slightly adjust the profile picture when in landscape mode to better mimic the feel of the other versions of the site.
 - [038-0.2.0]: Tablet orientations working properly >> Successfully implemented the tablet orientations for both landscape and portrait and verified that they function normally in the iOS simulator. Also verified that the mobile versions aren't affected at all.
 
+11.18.20
+- [039-0.2.1]: Desktop version basics >> modified the tablet styling to fit the desktop variant of the site.
 
 
 
