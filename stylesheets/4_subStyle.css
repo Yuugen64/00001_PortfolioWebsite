@@ -270,4 +270,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 }
 
+
+/* 720p to 1080p display */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1920px)  { 
+    .introPicture{
+        border-radius: 50%;
+        border: 5px solid #AEAEC0;
+    
+        position: relative;
+    
+        margin-top: 3rem;
+        margin-right: 1rem;
+        margin-bottom: auto;
+        margin-left: 2rem;
+    }
+}
+
 /* ========================= */

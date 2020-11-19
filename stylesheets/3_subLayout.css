@@ -166,4 +166,49 @@ and (-webkit-min-device-pixel-ratio: 2) {
    }
 }
 
+
+/* 720p to 1080p display */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1920px) { 
+   .intro-grid{
+      display: grid;
+      position: relative;
+      /*  Make sure that this corresponds to the global grid row size for this row. */
+      max-height: 200px;
+
+      /* Best to change picture change here by giving the container
+      more room to 'breathe' */
+      grid-template-columns: .35fr .65fr;
+      /*  Make sure that this corresponds to ***1/2*** the global grid row size for this row. */
+      grid-template-rows: 100px 100px;
+      grid-template-areas: 
+      "picture name"
+      "picture flavorText";
+  
+      /* This controls the margins for the physical card. 
+      The child elements control their own padding and marigns. */
+      margin-top: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+  
+      background-color: #DEF2F1;
+   }
+  
+   .introPicture{
+      grid-area: picture;
+      background-color: #3AAFA9;
+   }
+  
+   .name{
+      grid-area: name;
+   }
+  
+   .flavorText{
+      grid-area: flavorText;
+      background-color: #3AAFA9;
+   }
+}
+
 /* ========================= */

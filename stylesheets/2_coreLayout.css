@@ -194,4 +194,57 @@ and (-webkit-min-device-pixel-ratio: 2) {
    }
 }
 
+
+
+/* 720p to 1080p display */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1920px) { 
+   .global-grid{
+      /* Force the global-grid to take only screen space */
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      margin-left: 10rem;
+      margin-right: 10rem;
+
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 220px 1fr 1fr 1fr;
+      grid-template-areas: 
+      "intro ."
+      "projects ."
+      "challenges ."
+      "contact .";
+   }
+
+   .intro-grid{
+      grid-area: intro;
+   }
+
+   .projects{
+      grid-area: projects;
+
+      height: 18vh;
+   }
+
+   .challenges{
+      grid-area: challenges;
+
+      height: 18vh;
+   }
+
+   .contact{
+      grid-area: contact;
+
+      height: 18vh;
+   }
+}
+
 /* ========================= */
